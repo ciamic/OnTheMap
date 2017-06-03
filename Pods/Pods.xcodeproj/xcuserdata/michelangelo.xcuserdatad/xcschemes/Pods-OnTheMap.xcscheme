@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15F5EB0C1E2A3932009C36D5"
-               BuildableName = "OnTheMap.app"
-               BlueprintName = "OnTheMap"
-               ReferencedContainer = "container:OnTheMap.xcodeproj">
+               BlueprintIdentifier = "95A5409EBDEDACA4C92326693B5F4931"
+               BuildableName = "Pods_OnTheMap.framework"
+               BlueprintName = "Pods-OnTheMap"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15F5EB0C1E2A3932009C36D5"
-            BuildableName = "OnTheMap.app"
-            BlueprintName = "OnTheMap"
-            ReferencedContainer = "container:OnTheMap.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,23 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15F5EB0C1E2A3932009C36D5"
-            BuildableName = "OnTheMap.app"
-            BlueprintName = "OnTheMap"
-            ReferencedContainer = "container:OnTheMap.xcodeproj">
+            BlueprintIdentifier = "95A5409EBDEDACA4C92326693B5F4931"
+            BuildableName = "Pods_OnTheMap.framework"
+            BlueprintName = "Pods-OnTheMap"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15F5EB0C1E2A3932009C36D5"
-            BuildableName = "OnTheMap.app"
-            BlueprintName = "OnTheMap"
-            ReferencedContainer = "container:OnTheMap.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
